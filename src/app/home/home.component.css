@@ -1,0 +1,20 @@
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.imageCurso {
+  margin-top: 2px;
+  width: 500px;  
+  background-size: cover;
+}
+
+button{
+  background-color: #ef6c00;
+  color: aliceblue;
+  margin: 4px;
+  width: 400px;
+}

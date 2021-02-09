@@ -1,0 +1,14 @@
+
+<mat-toolbar>
+    <button mat-button [matMenuTriggerFor]="menu">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <a mat-menu-item href="/">Home</a>
+      <a mat-menu-item href="/cursos">Lista de Cursos</a>
+      <a mat-menu-item href="/formulario">Formulário</a>
+    </mat-menu>
+</mat-toolbar>
+<router-outlet>
+
+</router-outlet>

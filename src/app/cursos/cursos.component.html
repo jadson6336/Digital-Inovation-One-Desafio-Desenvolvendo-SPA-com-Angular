@@ -1,0 +1,21 @@
+
+<h1 class="container">Lista de Cursos : {{cursosInfo}}</h1>
+
+<div class="container">
+    <mat-card *ngFor="let curso of cursosList"  class="example-card">
+        <mat-card-header>
+        <mat-card-title>{{curso.nome}}</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image class="imageCurso" src="{{curso.imagem}}">
+        <mat-card-content>
+        <p>
+            {{curso.descricao}} 
+        </p>
+        </mat-card-content>
+    </mat-card>
+</div>
+
+
+
+
+
